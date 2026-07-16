@@ -68,6 +68,20 @@ The assistant maintains conversational context across multiple interactions, ref
 
 ---
 
+## Key AI Concepts
+
+- Retrieval-Augmented Generation (RAG)
+- Semantic Search
+- Dense Vector Embeddings
+- Context-Aware Retrieval
+- History-Aware Question Reformulation
+- Prompt Engineering
+- Conversational Memory
+- Vector Databases
+- Large Language Models (LLMs)
+
+---
+
 ## Project Structure
 
 ```
