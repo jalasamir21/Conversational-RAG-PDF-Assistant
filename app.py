@@ -20,7 +20,7 @@ from rag_pipeline import PDFIndexer, RagChainBuilder
 import uuid
 
 load_dotenv()
-st.title("Groq Chat with PDF RAG")
+st.title("📑Groq Chat with PDF RAG")
 
 if "session_id" not in st.session_state:
     st.session_state.session_id = str(uuid.uuid4())
