@@ -1,5 +1,7 @@
 # 📄 Conversational RAG PDF Assistant
 
+🚀 **Live Demo:** [https://conversational-rager.streamlit.app/]
+
 An AI-powered Retrieval-Augmented Generation (RAG) application that allows users to upload PDF documents and ask natural language questions about their content.
 
 The assistant maintains conversational context across multiple interactions, reformulates follow-up questions using chat history, retrieves relevant document chunks from a vector database, and generates grounded responses using a Large Language Model.
