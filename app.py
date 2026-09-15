@@ -73,12 +73,11 @@ memory_store = get_memory_store()
 
 # --- Model + system prompt controls ---
 if "groq_model" not in st.session_state:
-    st.session_state["groq_model"] = "llama-3.1-8b-instant"
+    st.session_state["groq_model"] = "openai/gpt-oss-20b"
 
 model_options = (
-    "llama-3.1-8b-instant",
-    "llama-3.3-70b-versatile",
-    "mixtral-8x7b-32768",
+    "openai/gpt-oss-20b",
+    "openai/gpt-oss-120b",
     "gemma2-9b-it",
 )
 st.session_state["groq_model"] = st.selectbox(
